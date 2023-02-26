@@ -3,6 +3,7 @@ import '../Style/NavBar.css'
 import { Link } from 'react-router-dom'
 
 
+
 function NavBar({loggedIn, setLoggedIn}) {
   return (
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
