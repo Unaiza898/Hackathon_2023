@@ -9,7 +9,7 @@ import SignUp from "./Components/SignUp"
 import About from "./Components/About"
 import UserDashboard from "./Components/UserDashboard"
 import UserExpenses from './Components/UserExpenses'
-
+import MonthlyBudget from './Components/MonthlyBudget';
 
 function App() {
     const[familyMembers, setFamilyMembers]=useState([])
@@ -26,6 +26,7 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/userDashboard"  element={<UserDashboard familyMembers={familyMembers} setFamilyMembers={setFamilyMembers} />} />
         <Route path='/userExpenses' element={<UserExpenses />}/>
+        <Route path='/monthlyBudget' element={<MonthlyBudget />}></Route>
       </Routes>
       </div>
     
