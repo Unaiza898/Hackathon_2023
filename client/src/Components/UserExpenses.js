@@ -3,10 +3,10 @@ import '../Style/UserExpenses.css'
 
 const UserExpenses = () => {
    return (
-      <div classname="user-expenses">
+      <div className="user-expenses">
 
          {/* Header */}
-         <div classname="user-expenses-container">
+         <div className="user-expenses-container">
             <h1> A detailed look at your expenses </h1>
             <p> Here is a summary of your expenses </p>
          </div>

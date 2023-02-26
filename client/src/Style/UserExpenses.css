@@ -1,8 +1,20 @@
+.user-expenses {
+   margin-left: 2em;
+   padding-top: 2em;
+}
+
+.user-expenses-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
 .january-container {
    margin: 5em;
    padding: 3em;
    border-radius: 2em;
-   background-color:#E8E8E8;
+   background-color:	#F8F8F8;
 }
 
 .january-header {
