@@ -8,8 +8,8 @@ import Login from "./Components/Login"
 import SignUp from "./Components/SignUp"
 import About from "./Components/About"
 import UserDashboard from "./Components/UserDashboard"
+import MonthlyBudget from "./Components/MonthlyBudget"
 
-import Footer from "./Components/Footer"
 
 function App() {
     const[familyMembers, setFamilyMembers]=useState([])
@@ -25,6 +25,7 @@ function App() {
         <Route path="/Login" element={<Login loggedIn={loggedIn} setLoggedIn={setLoggedIn}/>} />
         <Route path="/About" element={<About />} />
         <Route path="/userDashboard"  element={<UserDashboard familyMembers={familyMembers} setFamilyMembers={setFamilyMembers} />} />
+        <Route path="/monthlyBudget" element={<MonthlyBudget/>} />
       </Routes>
       </div>
     
