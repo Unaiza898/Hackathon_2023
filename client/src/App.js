@@ -8,6 +8,7 @@ import Login from "./Components/Login"
 import SignUp from "./Components/SignUp"
 import About from "./Components/About"
 import UserDashboard from "./Components/UserDashboard"
+import Information from "./Components/Information"
 
 import Footer from "./Components/Footer"
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/Login" element={<Login loggedIn={loggedIn} setLoggedIn={setLoggedIn}/>} />
         <Route path="/About" element={<About />} />
         <Route path="/userDashboard"  element={<UserDashboard familyMembers={familyMembers} setFamilyMembers={setFamilyMembers} />} />
+        <Route path='/information' element={<Information />} />
       </Routes>
       </div>
     
