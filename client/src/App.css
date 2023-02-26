@@ -47,3 +47,7 @@
 .footer{
   margin-top: auto;
 }
+
+.navbar-brand{
+  padding: 3rem
+}
