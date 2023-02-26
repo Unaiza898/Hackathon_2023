@@ -13,10 +13,16 @@ const UserExpenses = () => {
          {/* January Expenses */}
          <div className='january-container' >
             <div className="january-header">
-               <h1> January, 2023</h1>
-               <button className='month-edit'>Add/Edit Category</button>
+               <div>
+                  <h1> January, 2023</h1>
+                  <button className='month-edit'>Add/Edit Category</button>
+               </div>
+               <div>
+                  <h5 style={{color: 'red'}}>Total Spent: $ 7564</h5>
+                  <h5>Budgeted: </h5>
+               </div>
             </div>
-            <div className="dashboard-page">
+            <div className="month-container">
                <div class="card1">
                   <h3>Rent</h3>
                   <div class="card-body">
@@ -64,10 +70,17 @@ const UserExpenses = () => {
 
          <div className='january-container' >
             <div className="january-header">
-               <h1> December, 2022 </h1>
-               <button className='month-edit'>Add/Edit Category</button>
+               <div>
+                  <h1> December, 2022</h1>
+                  <button className='month-edit'>Add/Edit Category</button>
+               </div>
+               <div>
+                  <h5>Total Spent: $ 7564</h5>
+                  <h5>Budgeted: </h5>
+               </div>
+
             </div>
-            <div className="dashboard-page">
+            <div className="month-container">
                <div class="card1">
                   <h3>Rent</h3>
                   <div class="card-body">
@@ -115,10 +128,16 @@ const UserExpenses = () => {
 
          <div className='january-container' >
             <div className="january-header">
-               <h1> November, 2022 </h1>
-               <button className='month-edit'>Add/Edit Category</button>
+               <div>
+                  <h1> November, 2022</h1>
+                  <button className='month-edit'>Add/Edit Category</button>
+               </div>
+               <div>
+                  <h5>Total Spent: $ 7564</h5>
+                  <h5>Budgeted: </h5>
+               </div>
             </div>
-            <div className="dashboard-page">
+            <div className="month-container">
                <div class="card1">
                   <h3>Rent</h3>
                   <div class="card-body">

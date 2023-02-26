@@ -19,13 +19,24 @@
 
 .january-header {
    padding-bottom: 2em;
+   display: flex;
+   justify-content: space-between;
 }
+
+.month-container {
+   /* border: 1px solid black; */
+   display: flex;
+   flex-wrap: wrap;
+}
+
 
 .card1 {
    background-color: rgb(128, 0, 128, .10);
    padding: 1em;
    border-radius: 1em;
    margin: 1em;
+   width: 15em;
+   height: 10em;
 }
 
 .month-edit {
