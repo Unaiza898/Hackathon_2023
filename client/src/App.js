@@ -8,9 +8,12 @@ import Login from "./Components/Login"
 import SignUp from "./Components/SignUp"
 import About from "./Components/About"
 import UserDashboard from "./Components/UserDashboard"
+<<<<<<< HEAD
 import Information from "./Components/Information"
+=======
+import MonthlyBudget from "./Components/MonthlyBudget"
+>>>>>>> 62867285b8109feaeeb026439f0b577f4aaf6a8f
 
-import Footer from "./Components/Footer"
 
 function App() {
     const[familyMembers, setFamilyMembers]=useState([])
@@ -26,7 +29,11 @@ function App() {
         <Route path="/Login" element={<Login loggedIn={loggedIn} setLoggedIn={setLoggedIn}/>} />
         <Route path="/About" element={<About />} />
         <Route path="/userDashboard"  element={<UserDashboard familyMembers={familyMembers} setFamilyMembers={setFamilyMembers} />} />
+<<<<<<< HEAD
         <Route path='/information' element={<Information />} />
+=======
+        <Route path="/monthlyBudget" element={<MonthlyBudget/>} />
+>>>>>>> 62867285b8109feaeeb026439f0b577f4aaf6a8f
       </Routes>
       </div>
     
