@@ -7,7 +7,18 @@
    display: flex;
    flex-direction: column;
    justify-content: center;
-   align-items: center;
+   /* align-items: center; */
+   margin-left: 5em;
+   margin-right: 5em;
+   background-color:#F8F8F8;
+   padding: 3em;
+   border-radius: 2em;
+}
+
+
+.date-range {
+   text-decoration: underline;
+   padding-left: 1em;
 }
 
 .january-container {
@@ -23,12 +34,17 @@
    justify-content: space-between;
 }
 
+.jan-head {
+   display: flex;
+   align-items: baseline;
+   justify-content: space-between;
+}
+
 .month-container {
    /* border: 1px solid black; */
    display: flex;
    flex-wrap: wrap;
 }
-
 
 .card1 {
    background-color: rgb(128, 0, 128, .10);
@@ -40,11 +56,19 @@
 }
 
 .month-edit {
-   background-color: rgb(138, 43, 226, .5);
+   background-color: rgb(138, 43, 226, .8);
    border: 1px solid black;
+   color: white;
    border-radius: 1em;
    font-size: small;
-   padding-left: 1em;
-   padding-right: 1em;
+   padding: 8px;
+}
+
+.card-name {
+   font-size: 20px
+}
+
+.card-name-add {
+   font-size: 17px;
 }
 
