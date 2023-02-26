@@ -7,7 +7,7 @@ function MonthlyBudget() {
         
         <div>
             <h2>Your monthly budget</h2>
-            <img src="./chartBudget.png"/>
+            
         </div>
         <div>
             
