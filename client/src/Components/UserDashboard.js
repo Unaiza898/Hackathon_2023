@@ -1,8 +1,8 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import '../Style/UserDashboard.css'
 
 
-function UserDashboard({familyMembers, setFamilyMembers}) {
+function UserDashboard({ familyMembers, setFamilyMembers }) {
 
     return (
     <div className="dashboard-information">
