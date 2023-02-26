@@ -8,15 +8,7 @@ import Login from "./Components/Login"
 import SignUp from "./Components/SignUp"
 import About from "./Components/About"
 import UserDashboard from "./Components/UserDashboard"
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-import Information from "./Components/Information"
-=======
-import MonthlyBudget from "./Components/MonthlyBudget"
->>>>>>> 62867285b8109feaeeb026439f0b577f4aaf6a8f
->>>>>>> main
+import UserExpenses from './Components/UserExpenses'
 
 
 function App() {
@@ -33,14 +25,7 @@ function App() {
         <Route path="/Login" element={<Login loggedIn={loggedIn} setLoggedIn={setLoggedIn}/>} />
         <Route path="/About" element={<About />} />
         <Route path="/userDashboard"  element={<UserDashboard familyMembers={familyMembers} setFamilyMembers={setFamilyMembers} />} />
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-        <Route path='/information' element={<Information />} />
-=======
-        <Route path="/monthlyBudget" element={<MonthlyBudget/>} />
->>>>>>> 62867285b8109feaeeb026439f0b577f4aaf6a8f
->>>>>>> main
+        <Route path='/userExpenses' element={<UserExpenses />}/>
       </Routes>
       </div>
     

@@ -1,0 +1,26 @@
+.january-container {
+   margin: 5em;
+   padding: 3em;
+   border-radius: 2em;
+   background-color:#E8E8E8;
+}
+
+.january-header {
+   padding-bottom: 2em;
+}
+
+.card1 {
+   background-color: rgb(128, 0, 128, .10);
+   padding: 1em;
+   border-radius: 1em;
+}
+
+.month-edit {
+   background-color: rgb(138, 43, 226, .5);
+   border: 1px solid black;
+   border-radius: 1em;
+   font-size: small;
+   padding-left: 1em;
+   padding-right: 1em;
+}
+
