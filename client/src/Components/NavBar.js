@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 function NavBar({loggedIn, setLoggedIn}) {
   return (
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg ">
                 <div className="container-fluid">
                     <Link to="/" className="navbar-brand" ><img src='./Logo.png' className='navbar-brand' alt="..."/></Link>
                     <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -14,13 +14,13 @@ function NavBar({loggedIn, setLoggedIn}) {
                     </button>
                     <div className="collapse navbar-collapse justify-content-end" id="navbarCollapse">
                         <div className="navbar-nav">
-                                <Link to="/" className="nav-item nav-link active" id="Home">Home</Link>
+                                <Link to="/" className="nav-item nav-link active" id="Contact">Home</Link>
                                 
                                 <Link to="/about" className="nav-item nav-link" id="Contact">About</Link>
                         {loggedIn ? (
                             <>
                                 <Link to="/userDashboard" className="nav-item nav-link" id="Contact">Dashboard</Link>
-                                <Link to="/" className="nav-item nav-link active" id="Home" onClick={()=>setLoggedIn(false)}>Log out</Link>
+                                <Link to="/" className="nav-item nav-link active" id="Contact" onClick={()=>setLoggedIn(false)}>Log out</Link>
                             </>) :(
                             <>
                                 <Link to="/login" className="nav-item nav-link" id="Contact">Login</Link>
