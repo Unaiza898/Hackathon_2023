@@ -1,0 +1,55 @@
+.financial-goals {
+   padding-left: 2em;
+   padding-top: 2em;
+}
+
+.financial-header {
+   background-color: #F8F8F8;
+   margin: 2em;
+   padding: 3em;
+   border-radius: 2em;
+   box-shadow: 3px 3px 3px #BEBEBE
+}
+
+.financial-main-container {
+   margin: 2em;
+   padding: 2em;
+   background-color: #F8F8F8;
+   border-radius: 2em;
+   box-shadow: 3px 3px 3px #BEBEBE
+}
+
+.main-body {
+   background-color: rgb(128, 0, 128, .10);
+   margin: 2em;
+   padding: 2em;
+   height: 30em;
+   border-radius: 2em;
+}
+
+.item-button {
+   height: 1em;
+   width: 1em;
+}
+
+.circle {
+   background-color: rgb(128, 0, 128, .75);
+   width: 50px;
+   height: 50px;
+   border-radius: 30px;
+   color: white;
+   text-align: center;
+   padding-top: .25em;
+}
+
+.item1 {
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+   border-bottom: 1px solid black;
+   padding-top: 1em;
+}
+
+.item-text {
+   display: flex;
+}
