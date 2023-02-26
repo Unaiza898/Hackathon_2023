@@ -34,6 +34,7 @@ const FinancialGoals = () => {
                      <button className="item-button"></button>
                   </div>
                </div>
+               <button className="finance-button">Proceed with selected options</button>
             </div>
          </div>
       </div>

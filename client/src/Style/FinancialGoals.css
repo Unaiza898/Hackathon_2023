@@ -53,3 +53,10 @@
 .item-text {
    display: flex;
 }
+
+.finance-button {
+   background-color: black;
+   color: white;
+   border-radius: 1em;
+   margin-top: 2em;
+}
