@@ -1,0 +1,25 @@
+.vaccine-table-dashboard{
+    margin-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.vaccine-table{
+    margin-right: 3rem;
+    margin-left: 3rem;}
+
+button {
+    margin-right: 0.5rem;
+}
+
+.vaccine-table{
+    min-height: 50vh;
+    
+}
+
+.h4{
+    margin-top:1rem
+}
