@@ -1,0 +1,79 @@
+.user-expenses {
+   margin-left: 2em;
+   padding-top: 2em;
+}
+
+.user-expenses-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   /* align-items: center; */
+   margin-left: 5em;
+   margin-right: 5em;
+   background-color:#F8F8F8;
+   padding: 3em;
+   border-radius: 2em;
+}
+
+
+.date-range {
+   text-decoration: underline;
+   padding-left: 1em;
+}
+
+.january-container {
+   margin: 5em;
+   padding: 3em;
+   border-radius: 2em;
+   background-color:	#F8F8F8;
+}
+
+.january-header {
+   padding-bottom: 2em;
+   display: flex;
+   justify-content: space-between;
+}
+
+.jan-head {
+   display: flex;
+   align-items: baseline;
+   justify-content: space-between;
+}
+
+.jan-title {
+   font-size: 35px;
+}
+
+.month-container {
+   /* border: 1px solid black; */
+   display: flex;
+   flex-wrap: wrap;
+   margin-left: 1.5em;
+}
+
+.card1 {
+   background-color: rgb(128, 0, 128, .10);
+   padding: 1em;
+   border-radius: 1em;
+   margin: 1em;
+   width: 15em;
+   height: 10em;
+}
+
+.month-edit {
+   background-color: rgb(138, 43, 226, .8);
+   border: 1px solid black;
+   color: white;
+   border-radius: 1em;
+   font-size: small;
+   padding: 8px;
+}
+
+.card-name {
+   font-size: 20px
+}
+
+.card-name-add {
+   font-size: 17px;
+}
+
