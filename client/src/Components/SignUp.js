@@ -33,7 +33,7 @@ function SignUp() {
             </div> 
 
             <div  className="col">
-                <input class="effect-1" type="password" placeholder="Password" alue={newUser.password} onChange={(e)=> setNewUser({...newUser, password:e.target.value})}/>
+                <input class="effect-1" type="password" placeholder="Password" value={newUser.password} onChange={(e)=> setNewUser({...newUser, password:e.target.value})}/>
                 <span class="focus-border"></span>
             </div> 
 

@@ -9,6 +9,7 @@ import SignUp from "./Components/SignUp"
 import About from "./Components/About"
 import UserDashboard from "./Components/UserDashboard"
 import UserExpenses from './Components/UserExpenses'
+import Calculator from './Components/Calculator'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/userDashboard"  element={<UserDashboard familyMembers={familyMembers} setFamilyMembers={setFamilyMembers} />} />
         <Route path='/userExpenses' element={<UserExpenses />}/>
+        <Route path='/Calculator' element={<Calculator />}/>
       </Routes>
       </div>
     
