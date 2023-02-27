@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@typeform/embed-react": "^2.15.0",
+    "reactjs-popup": "^2.0.5",
+    "recharts": "^2.4.3"
+  }
+}
