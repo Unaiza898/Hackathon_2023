@@ -4,7 +4,7 @@ import Charts from "./chart.js";
 function MonthlyBudget() {
   return (
     <div>
-      <div className="card">
+      <div className="cards">
         <h4>Manage your Budget</h4>
         <p>
           {" "}
