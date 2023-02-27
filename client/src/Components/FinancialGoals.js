@@ -1,7 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import '../Style/FinancialGoals.css'
 
 const FinancialGoals = () => {
+
+   const navigate = useNavigate()
+
+   const handleButton = () => {
+      navigate('/calculator')
+   }
    return (
       <div className="financial-goals">
          <div className="financial-header">
@@ -34,7 +41,8 @@ const FinancialGoals = () => {
                      <button className="item-button"></button>
                   </div>
                </div>
-               <button className="finance-button">Proceed with selected options</button>
+               {/* <button className="finance-button">Proceed with selected options</button> */}
+               <button className="finance-button" onClick={handleButton}> Proceed with selected options </button>
             </div>
          </div>
       </div>

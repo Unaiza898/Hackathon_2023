@@ -9,11 +9,8 @@ import SignUp from "./Components/SignUp"
 import About from "./Components/About"
 import UserDashboard from "./Components/UserDashboard"
 import UserExpenses from './Components/UserExpenses'
-<<<<<<< HEAD
 import Calculator from './Components/Calculator'
-=======
 import FinancialGoals from './Components/FinancialGoals';
->>>>>>> olivia-user-expenses
 
 
 function App() {
@@ -31,11 +28,8 @@ function App() {
         <Route path="/About" element={<About />} />
         <Route path="/userDashboard"  element={<UserDashboard familyMembers={familyMembers} setFamilyMembers={setFamilyMembers} />} />
         <Route path='/userExpenses' element={<UserExpenses />}/>
-<<<<<<< HEAD
         <Route path='/Calculator' element={<Calculator />}/>
-=======
         <Route path='/financialGoals'element={<FinancialGoals />}/>
->>>>>>> olivia-user-expenses
       </Routes>
       </div>
     
